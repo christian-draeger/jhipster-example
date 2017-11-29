@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>task-list</name>
-    <description>Demo project wireing Spring Boot and Angular2 by usage of jHipster</description>
+    <description>Demo project wiring Spring Boot and Angular by usage of jHipster</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
