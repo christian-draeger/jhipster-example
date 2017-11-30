@@ -10,6 +10,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {HttpClient} from '@angular/common/http';
 import {TaskService} from "./tasks/task.service";
 import {HttpModule} from "@angular/http";
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import {HttpModule} from "@angular/http";
     imports: [
         BrowserModule,
         HttpModule,
-        HttpClientModule
+        HttpClientModule,
+        FormsModule
     ],
     providers: [TaskService],
     bootstrap: [AppComponent]
